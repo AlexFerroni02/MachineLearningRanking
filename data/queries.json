@@ -1,0 +1,64 @@
+{
+  "queries": [
+    {
+      "qid": "Q1",
+      "text": "glucose in blood",
+      "intent": "Find information about blood glucose testing",
+      "category": "metabolic"
+    },
+    {
+      "qid": "Q2",
+      "text": "bilirubin in plasma",
+      "intent": "Find information about plasma bilirubin measurement",
+      "category": "liver_function"
+    },
+    {
+      "qid": "Q3",
+      "text": "white blood cells count",
+      "intent": "Find information about WBC enumeration",
+      "category": "hematology"
+    },
+    {
+      "qid": "Q4",
+      "text": "hemoglobin measurement",
+      "intent": "Find information about hemoglobin testing",
+      "category": "hematology"
+    },
+    {
+      "qid": "Q5",
+      "text": "creatinine in serum",
+      "intent": "Find information about serum creatinine testing",
+      "category": "kidney_function"
+    },
+    {
+      "qid": "Q6",
+      "text": "cholesterol total",
+      "intent": "Find information about total cholesterol testing",
+      "category": "lipid_panel"
+    },
+    {
+      "qid": "Q7",
+      "text": "platelet count",
+      "intent": "Find information about platelet enumeration",
+      "category": "hematology"
+    },
+    {
+      "qid": "Q8",
+      "text": "liver function tests",
+      "intent": "Find information about liver enzyme panels",
+      "category": "liver_function"
+    },
+    {
+      "qid": "Q9",
+      "text": "kidney function panel",
+      "intent": "Find information about kidney function testing",
+      "category": "kidney_function"
+    },
+    {
+      "qid": "Q10",
+      "text": "complete blood count",
+      "intent": "Find information about CBC panel",
+      "category": "hematology"
+    }
+  ]
+}

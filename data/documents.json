@@ -1,0 +1,184 @@
+{
+  "documents": [
+    {
+      "doc_id": "D1",
+      "title": "Blood Glucose Testing - Glucose Mass Concentration in Blood",
+      "content": "Glucose measurement in blood is a fundamental test for diabetes diagnosis and monitoring. The test measures the concentration of glucose (blood sugar) in whole blood samples. LOINC code 2345-7. Normal fasting glucose levels range from 70-100 mg/dL. This test is essential for diagnosing diabetes mellitus, hypoglycemia, and monitoring glycemic control in diabetic patients.",
+      "loinc_code": "2345-7",
+      "test_type": "quantitative",
+      "sample_type": "blood",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D2",
+      "title": "Plasma Bilirubin Total Measurement",
+      "content": "Total bilirubin measurement in serum or plasma is crucial for evaluating liver function and diagnosing jaundice. LOINC code 1975-2. Bilirubin is a yellow pigment produced during the breakdown of red blood cells. Elevated levels indicate liver disease, bile duct obstruction, or hemolytic anemia. Normal range is 0.1-1.2 mg/dL.",
+      "loinc_code": "1975-2",
+      "test_type": "quantitative",
+      "sample_type": "plasma",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D3",
+      "title": "White Blood Cell Count - Automated Leukocyte Enumeration",
+      "content": "Leukocyte count in blood by automated analyzer measures the number of white blood cells per volume of blood. LOINC code 6690-2. WBC count is part of the complete blood count (CBC) and helps diagnose infections, immune disorders, and blood cancers. Normal range is 4,000-11,000 cells/μL. Elevated WBC indicates infection or inflammation.",
+      "loinc_code": "6690-2",
+      "test_type": "quantitative",
+      "sample_type": "blood",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D4",
+      "title": "Hemoglobin Concentration in Blood",
+      "content": "Hemoglobin measurement quantifies the oxygen-carrying protein in red blood cells. LOINC code 718-7. This test is essential for diagnosing anemia and polycythemia. Normal values: males 13.5-17.5 g/dL, females 12.0-15.5 g/dL. Low hemoglobin indicates anemia, while high levels suggest polycythemia or dehydration.",
+      "loinc_code": "718-7",
+      "test_type": "quantitative",
+      "sample_type": "blood",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D5",
+      "title": "Serum Creatinine Measurement",
+      "content": "Creatinine in serum or plasma is a key marker of kidney function. LOINC code 2160-0. Creatinine is a waste product of muscle metabolism filtered by the kidneys. Elevated creatinine levels indicate reduced kidney function or kidney disease. Normal range: males 0.7-1.3 mg/dL, females 0.6-1.1 mg/dL.",
+      "loinc_code": "2160-0",
+      "test_type": "quantitative",
+      "sample_type": "serum",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D6",
+      "title": "Total Cholesterol in Serum",
+      "content": "Cholesterol measurement in serum or plasma assesses cardiovascular risk. LOINC code 2093-3. Total cholesterol includes LDL, HDL, and VLDL cholesterol. Desirable level is below 200 mg/dL. High cholesterol increases risk of atherosclerosis, heart disease, and stroke.",
+      "loinc_code": "2093-3",
+      "test_type": "quantitative",
+      "sample_type": "serum",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D7",
+      "title": "Platelet Count - Automated Thrombocyte Enumeration",
+      "content": "Platelet count by automated analyzer measures thrombocytes in blood. LOINC code 777-3. Platelets are essential for blood clotting. Normal range is 150,000-400,000 platelets/μL. Low counts (thrombocytopenia) increase bleeding risk, while high counts (thrombocytosis) may cause clotting.",
+      "loinc_code": "777-3",
+      "test_type": "quantitative",
+      "sample_type": "blood",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D8",
+      "title": "Alanine Aminotransferase (ALT) - Liver Enzyme",
+      "content": "ALT enzyme activity in serum or plasma indicates liver health. LOINC code 1742-6. ALT is primarily found in liver cells and released when liver damage occurs. Normal range is 7-56 U/L. Elevated ALT suggests hepatitis, cirrhosis, or fatty liver disease.",
+      "loinc_code": "1742-6",
+      "test_type": "quantitative",
+      "sample_type": "serum",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D9",
+      "title": "Aspartate Aminotransferase (AST) - Liver Enzyme",
+      "content": "AST enzyme activity measurement in serum or plasma. LOINC code 1920-8. AST is found in liver, heart, and muscle tissue. Normal range is 10-40 U/L. Elevated AST indicates liver damage, heart attack, or muscle injury. Often measured with ALT for liver function assessment.",
+      "loinc_code": "1920-8",
+      "test_type": "quantitative",
+      "sample_type": "serum",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D10",
+      "title": "Blood Urea Nitrogen (BUN) - Kidney Function",
+      "content": "Urea nitrogen measurement in serum or plasma assesses kidney function. LOINC code 3094-0. BUN measures the amount of nitrogen in blood from urea, a waste product of protein metabolism. Normal range is 7-20 mg/dL. Elevated BUN indicates kidney dysfunction, dehydration, or high protein intake.",
+      "loinc_code": "3094-0",
+      "test_type": "quantitative",
+      "sample_type": "serum",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D11",
+      "title": "Fasting Blood Sugar Test",
+      "content": "Fasting glucose test measures blood sugar levels after an overnight fast. This test requires no food or drink (except water) for 8-12 hours before the blood sample is collected. It is the primary screening test for diabetes and prediabetes. Values below 100 mg/dL are normal, 100-125 mg/dL indicate prediabetes, and 126 mg/dL or higher suggest diabetes.",
+      "loinc_code": "2345-7",
+      "test_type": "quantitative",
+      "sample_type": "blood",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D12",
+      "title": "Complete Blood Count (CBC) Panel",
+      "content": "The CBC is a comprehensive panel measuring red blood cells, white blood cells, hemoglobin, hematocrit, and platelets. It includes WBC count (LOINC 6690-2), hemoglobin (LOINC 718-7), and platelet count (LOINC 777-3). CBC is used to screen for various conditions including anemia, infection, and blood disorders.",
+      "loinc_code": "58410-2",
+      "test_type": "panel",
+      "sample_type": "blood",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D13",
+      "title": "Liver Function Panel",
+      "content": "Comprehensive liver function tests include ALT, AST, total bilirubin, alkaline phosphatase, and albumin. These tests collectively assess liver health, detect liver disease, and monitor treatment effectiveness. The panel helps diagnose hepatitis, cirrhosis, fatty liver, and bile duct disorders.",
+      "loinc_code": "24325-3",
+      "test_type": "panel",
+      "sample_type": "serum",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D14",
+      "title": "Kidney Function Panel - Basic Metabolic",
+      "content": "Kidney function testing includes creatinine, BUN, and electrolytes. These tests evaluate how well the kidneys filter waste and maintain fluid and electrolyte balance. The BUN/creatinine ratio helps distinguish between different causes of kidney dysfunction. Essential for chronic kidney disease monitoring.",
+      "loinc_code": "24323-8",
+      "test_type": "panel",
+      "sample_type": "serum",
+      "clinical_relevance": "high"
+    },
+    {
+      "doc_id": "D15",
+      "title": "Hyperbilirubinemia and Jaundice Diagnosis",
+      "content": "Elevated bilirubin levels cause yellowing of skin and eyes (jaundice). Total bilirubin testing, along with direct and indirect bilirubin, helps identify the cause. Prehepatic causes include hemolytic anemia, hepatic causes include liver disease, and posthepatic causes include bile duct obstruction.",
+      "loinc_code": "1975-2",
+      "test_type": "quantitative",
+      "sample_type": "plasma",
+      "clinical_relevance": "medium"
+    },
+    {
+      "doc_id": "D16",
+      "title": "Leukocytosis - Elevated White Blood Cell Count",
+      "content": "Leukocytosis refers to an elevated WBC count above normal range. Common causes include bacterial infections, inflammation, stress, smoking, and leukemia. A differential white blood cell count helps identify which type of WBC is elevated (neutrophils, lymphocytes, monocytes, eosinophils, or basophils).",
+      "loinc_code": "6690-2",
+      "test_type": "quantitative",
+      "sample_type": "blood",
+      "clinical_relevance": "medium"
+    },
+    {
+      "doc_id": "D17",
+      "title": "Diabetes Monitoring with Glucose Tests",
+      "content": "Regular blood glucose monitoring is essential for diabetes management. Tests include fasting glucose, random glucose, and hemoglobin A1c. Glucose meters allow patients to check blood sugar at home. Target ranges vary based on individual circumstances and should be established with healthcare providers.",
+      "loinc_code": "2345-7",
+      "test_type": "quantitative",
+      "sample_type": "blood",
+      "clinical_relevance": "medium"
+    },
+    {
+      "doc_id": "D18",
+      "title": "Anemia Diagnosis with Hemoglobin Testing",
+      "content": "Low hemoglobin levels indicate anemia, which can result from iron deficiency, vitamin B12 deficiency, chronic disease, or blood loss. Hemoglobin testing is part of CBC. Additional tests like ferritin, vitamin B12, and folate help determine the specific cause of anemia.",
+      "loinc_code": "718-7",
+      "test_type": "quantitative",
+      "sample_type": "blood",
+      "clinical_relevance": "medium"
+    },
+    {
+      "doc_id": "D19",
+      "title": "Lipid Profile and Cardiovascular Risk",
+      "content": "Cholesterol testing is part of a lipid profile that includes total cholesterol, LDL, HDL, and triglycerides. This panel assesses cardiovascular disease risk. Lifestyle modifications and medications may be recommended based on results. Regular screening is important for heart health.",
+      "loinc_code": "2093-3",
+      "test_type": "quantitative",
+      "sample_type": "serum",
+      "clinical_relevance": "medium"
+    },
+    {
+      "doc_id": "D20",
+      "title": "Chronic Kidney Disease Staging with Creatinine",
+      "content": "Serum creatinine is used to calculate estimated glomerular filtration rate (eGFR), which stages chronic kidney disease from stage 1 (normal) to stage 5 (kidney failure). Regular monitoring helps track disease progression and guide treatment decisions. Creatinine clearance provides additional information.",
+      "loinc_code": "2160-0",
+      "test_type": "quantitative",
+      "sample_type": "serum",
+      "clinical_relevance": "medium"
+    }
+  ]
+}
