@@ -50,6 +50,10 @@ def create_pairwise_from_ranking(ranked_docs, query):
     for i, j in combinations(range(len(ranked_docs)), 2):
         d1 = ranked_docs.iloc[i]
         d2 = ranked_docs.iloc[j]
+
+        if d1['similarity'] == d2['similarity']:
+            continue
+    
         pair = {
             'query': query,   # track which query generated the pair
             'doc1_id': d1['loinc_num'],
