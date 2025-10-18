@@ -6,7 +6,7 @@ queries = [
     "bilirubin in plasma",
     "White blood cells count"
 ]
-OUTPUT_FILE = "../data/queries.xlsx"  
+OUTPUT_FILE = "../../data/queries.xlsx"
 
 df_queries = pd.DataFrame({"query": queries})
 

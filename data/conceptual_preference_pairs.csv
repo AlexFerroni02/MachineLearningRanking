@@ -1,145 +1,104 @@
 query,preferred_doc_id,not_preferred_doc_id,label
-bilirubin in plasma,17861-6,1968-7,1
-bilirubin in plasma,17861-6,35192-4,1
-bilirubin in plasma,17861-6,14423-8,1
-bilirubin in plasma,17861-6,33870-7,1
-bilirubin in plasma,17861-6,4671-4,1
-bilirubin in plasma,30522-7,1968-7,1
-bilirubin in plasma,30522-7,35192-4,1
-bilirubin in plasma,30522-7,14423-8,1
-bilirubin in plasma,30522-7,33870-7,1
-bilirubin in plasma,30522-7,4671-4,1
-bilirubin in plasma,30522-7,14749-6,1
-bilirubin in plasma,30522-7,1751-7,1
-bilirubin in plasma,30522-7,2085-9,1
-bilirubin in plasma,30522-7,74774-1,1
-bilirubin in plasma,30522-7,2093-3,1
-bilirubin in plasma,30522-7,2075-0,1
-bilirubin in plasma,30522-7,2143-6,1
-bilirubin in plasma,30522-7,3082-5,1
-bilirubin in plasma,30522-7,1995-0,1
-bilirubin in plasma,30522-7,1988-5,1
-bilirubin in plasma,30522-7,19080-1,1
-bilirubin in plasma,30522-7,2039-6,1
-bilirubin in plasma,30522-7,1798-8,1
-bilirubin in plasma,30522-7,2028-9,1
-bilirubin in plasma,30522-7,35184-1,1
-bilirubin in plasma,30522-7,1759-0,1
-bilirubin in plasma,30522-7,1742-6,1
-bilirubin in plasma,30522-7,1920-8,1
-bilirubin in plasma,30522-7,2111-3,1
-bilirubin in plasma,30522-7,6768-6,1
-bilirubin in plasma,30522-7,890-4,1
-bilirubin in plasma,30522-7,29265-6,1
-bilirubin in plasma,18928-2,1968-7,1
-bilirubin in plasma,18928-2,35192-4,1
-bilirubin in plasma,18928-2,14423-8,1
-bilirubin in plasma,18928-2,33870-7,1
-bilirubin in plasma,18928-2,4671-4,1
-bilirubin in plasma,18928-2,14749-6,1
-bilirubin in plasma,18928-2,1751-7,1
-bilirubin in plasma,18928-2,2085-9,1
-bilirubin in plasma,18928-2,74774-1,1
-bilirubin in plasma,18928-2,2093-3,1
-bilirubin in plasma,18928-2,2075-0,1
-bilirubin in plasma,18928-2,2143-6,1
-bilirubin in plasma,18928-2,3082-5,1
-bilirubin in plasma,18928-2,1995-0,1
-bilirubin in plasma,18928-2,1988-5,1
-bilirubin in plasma,18928-2,19080-1,1
-bilirubin in plasma,18928-2,2039-6,1
-bilirubin in plasma,18928-2,1798-8,1
-bilirubin in plasma,18928-2,2028-9,1
-bilirubin in plasma,18928-2,35184-1,1
-bilirubin in plasma,18928-2,1759-0,1
-bilirubin in plasma,18928-2,1742-6,1
-bilirubin in plasma,18928-2,1920-8,1
-bilirubin in plasma,18928-2,2111-3,1
-bilirubin in plasma,18928-2,6768-6,1
-bilirubin in plasma,18928-2,890-4,1
-bilirubin in plasma,18928-2,29265-6,1
-bilirubin in plasma,18928-2,1003-3,1
-bilirubin in plasma,18928-2,14764-5,1
-bilirubin in plasma,18928-2,26464-8,1
-bilirubin in plasma,18928-2,26474-7,1
-bilirubin in plasma,18928-2,26484-6,1
-bilirubin in plasma,18928-2,2069-3,1
-bilirubin in plasma,18928-2,10331-7,1
-bilirubin in plasma,18928-2,1959-6,1
-bilirubin in plasma,18928-2,15076-3,1
-bilirubin in plasma,18928-2,1994-3,1
-bilirubin in plasma,18928-2,883-9,1
-bilirubin in plasma,18928-2,26478-8,1
-bilirubin in plasma,18928-2,14747-0,1
-bilirubin in plasma,18928-2,20565-8,1
-bilirubin in plasma,18928-2,882-1,1
-bilirubin in plasma,18928-2,54439-5,1
-bilirubin in plasma,18928-2,2132-9,1
-bilirubin in plasma,18928-2,14578-9,1
-bilirubin in plasma,18928-2,13317-3,1
-bilirubin in plasma,18928-2,20442-0,1
-bilirubin in plasma,18928-2,934-0,1
-bilirubin in plasma,18928-2,23658-8,1
-bilirubin in plasma,18928-2,19000-9,1
-bilirubin in plasma,18928-2,18865-6,1
-bilirubin in plasma,18928-2,8310-5,1
-bilirubin in plasma,18928-2,18878-9,1
-bilirubin in plasma,18928-2,1250-0,1
-bilirubin in plasma,18928-2,18955-5,1
-bilirubin in plasma,18928-2,18906-8,1
-bilirubin in plasma,18928-2,18864-9,1
-glucose in blood,14749-6,74774-1,1
-glucose in blood,15076-3,74774-1,1
-glucose in blood,15076-3,14764-5,1
-glucose in blood,14578-9,74774-1,1
-glucose in blood,14578-9,14764-5,1
-glucose in blood,14578-9,14747-0,1
-glucose in blood,14578-9,35184-1,1
-glucose in blood,14578-9,26474-7,1
-glucose in blood,14578-9,26464-8,1
-glucose in blood,14578-9,26484-6,1
-glucose in blood,14578-9,2069-3,1
-glucose in blood,14578-9,10331-7,1
-glucose in blood,14578-9,1959-6,1
-glucose in blood,3082-5,74774-1,1
-glucose in blood,3082-5,14764-5,1
-glucose in blood,3082-5,14747-0,1
-glucose in blood,3082-5,35184-1,1
-glucose in blood,3082-5,26474-7,1
-glucose in blood,3082-5,26464-8,1
-glucose in blood,3082-5,26484-6,1
-glucose in blood,3082-5,2069-3,1
-glucose in blood,3082-5,10331-7,1
-glucose in blood,3082-5,1959-6,1
-glucose in blood,3082-5,1994-3,1
-glucose in blood,3082-5,883-9,1
-glucose in blood,3082-5,933-2,1
-glucose in blood,3082-5,26478-8,1
-glucose in blood,3082-5,20565-8,1
-glucose in blood,3082-5,882-1,1
-glucose in blood,3082-5,890-4,1
-glucose in blood,3082-5,925-8,1
-glucose in blood,3082-5,934-0,1
-glucose in blood,3082-5,31100-1,1
-glucose in blood,3082-5,2085-9,1
-glucose in blood,3082-5,4671-4,1
-glucose in blood,3082-5,17861-6,1
-glucose in blood,3082-5,1751-7,1
-glucose in blood,3082-5,2093-3,1
-glucose in blood,3082-5,2075-0,1
-glucose in blood,3082-5,2143-6,1
-glucose in blood,3082-5,1975-2,1
-glucose in blood,3082-5,1971-1,1
-white blood cells count,26484-6,14578-9,1
-white blood cells count,26484-6,933-2,1
-white blood cells count,20565-8,14578-9,1
-white blood cells count,20565-8,933-2,1
-white blood cells count,20565-8,2069-3,1
-white blood cells count,20565-8,74774-1,1
-white blood cells count,20565-8,10331-7,1
-white blood cells count,20565-8,1959-6,1
-white blood cells count,20565-8,1994-3,1
-white blood cells count,20565-8,883-9,1
-white blood cells count,20565-8,925-8,1
-white blood cells count,20565-8,934-0,1
-white blood cells count,20565-8,26478-8,1
+bilirubin in plasma,1971-1,2085-9,1
+bilirubin in plasma,1971-1,1968-7,1
+glucose in blood,14749-6,2085-9,1
+glucose in blood,14747-0,2085-9,1
+glucose in blood,14747-0,14764-5,1
+glucose in blood,14747-0,15076-3,1
+white blood cells count,2069-3,74774-1,1
+white blood cells count,882-1,74774-1,1
+white blood cells count,882-1,10331-7,1
+white blood cells count,882-1,1959-6,1
+white blood cells count,882-1,26464-8,1
+white blood cells count,882-1,26474-7,1
+white blood cells count,882-1,26484-6,1
+white blood cells count,882-1,1994-3,1
+white blood cells count,882-1,883-9,1
+white blood cells count,882-1,20565-8,1
+white blood cells count,1920-8,74774-1,1
+white blood cells count,1920-8,10331-7,1
+white blood cells count,1920-8,1959-6,1
+white blood cells count,1920-8,26464-8,1
+white blood cells count,1920-8,26474-7,1
+white blood cells count,1920-8,26484-6,1
+white blood cells count,1920-8,1994-3,1
+white blood cells count,1920-8,883-9,1
+white blood cells count,1920-8,20565-8,1
+white blood cells count,1920-8,31100-1,1
+white blood cells count,1920-8,925-8,1
+white blood cells count,1920-8,933-2,1
+white blood cells count,1920-8,890-4,1
+white blood cells count,1920-8,26478-8,1
+white blood cells count,1920-8,934-0,1
+white blood cells count,1920-8,33870-7,1
+white blood cells count,1920-8,29265-6,1
+white blood cells count,1920-8,14423-8,1
+white blood cells count,1920-8,15076-3,1
+white blood cells count,1920-8,35184-1,1
+white blood cells count,1920-8,2085-9,1
+white blood cells count,1920-8,18878-9,1
+white blood cells count,1920-8,14578-9,1
+white blood cells count,1920-8,18928-2,1
+white blood cells count,1920-8,1975-2,1
+white blood cells count,1920-8,1798-8,1
+white blood cells count,1920-8,13317-3,1
+white blood cells count,1920-8,20442-0,1
+white blood cells count,1920-8,1751-7,1
+white blood cells count,1920-8,23658-8,1
+white blood cells count,1920-8,19000-9,1
+white blood cells count,1920-8,14749-6,1
+white blood cells count,35192-4,74774-1,1
+white blood cells count,35192-4,10331-7,1
+white blood cells count,35192-4,1959-6,1
+white blood cells count,35192-4,26464-8,1
+white blood cells count,35192-4,26474-7,1
+white blood cells count,35192-4,26484-6,1
+white blood cells count,35192-4,1994-3,1
+white blood cells count,35192-4,883-9,1
+white blood cells count,35192-4,20565-8,1
+white blood cells count,35192-4,31100-1,1
+white blood cells count,35192-4,925-8,1
+white blood cells count,35192-4,933-2,1
+white blood cells count,35192-4,890-4,1
+white blood cells count,35192-4,26478-8,1
+white blood cells count,35192-4,934-0,1
+white blood cells count,35192-4,33870-7,1
+white blood cells count,35192-4,29265-6,1
+white blood cells count,35192-4,14423-8,1
+white blood cells count,35192-4,15076-3,1
+white blood cells count,35192-4,35184-1,1
+white blood cells count,35192-4,2085-9,1
+white blood cells count,35192-4,18878-9,1
+white blood cells count,35192-4,14578-9,1
+white blood cells count,35192-4,18928-2,1
+white blood cells count,35192-4,1975-2,1
+white blood cells count,35192-4,1798-8,1
+white blood cells count,35192-4,13317-3,1
+white blood cells count,35192-4,20442-0,1
+white blood cells count,35192-4,1751-7,1
+white blood cells count,35192-4,23658-8,1
+white blood cells count,35192-4,19000-9,1
+white blood cells count,35192-4,14749-6,1
+white blood cells count,35192-4,2028-9,1
+white blood cells count,35192-4,14747-0,1
+white blood cells count,35192-4,2132-9,1
+white blood cells count,35192-4,19080-1,1
+white blood cells count,35192-4,2075-0,1
+white blood cells count,35192-4,4671-4,1
+white blood cells count,35192-4,2111-3,1
+white blood cells count,35192-4,17861-6,1
+white blood cells count,35192-4,1971-1,1
+white blood cells count,35192-4,18906-8,1
+white blood cells count,35192-4,2093-3,1
+white blood cells count,35192-4,18955-5,1
+white blood cells count,35192-4,14764-5,1
+white blood cells count,35192-4,2143-6,1
+white blood cells count,35192-4,2039-6,1
+white blood cells count,35192-4,18998-5,1
+white blood cells count,35192-4,1968-7,1
+white blood cells count,35192-4,20629-2,1
+white blood cells count,35192-4,1759-0,1
+white blood cells count,35192-4,1995-0,1
+white blood cells count,35192-4,1988-5,1
+white blood cells count,35192-4,6768-6,1
+white blood cells count,35192-4,54439-5,1

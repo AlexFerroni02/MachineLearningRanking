@@ -4,9 +4,9 @@ from sklearn.metrics.pairwise import cosine_similarity
 from itertools import combinations
 
 # Configuration paths
-DOCS_FILE = "../data/loinc_dataset-v2.xlsx"      # Excel file with our documents (dataset)
-QUERIES_FILE = "../data/queries.xlsx"            # Excel file with queries (first run create_query_file.py)
-OUTPUT_PAIRS_FILE = "../data/pairwise_tfidf_ranking.xlsx"
+DOCS_FILE = "../../data/loinc_dataset-v2.xlsx"  # Excel file with our documents (dataset)
+QUERIES_FILE = "../../data/queries.xlsx"  # Excel file with queries (first run create_query_file.py)
+OUTPUT_PAIRS_FILE = "../../data/pairwise_tfidf_ranking.xlsx"
 
 # combine LOINC fields into text 
 def combine_doc_text(df):

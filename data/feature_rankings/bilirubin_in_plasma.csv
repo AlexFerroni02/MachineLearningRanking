@@ -1,68 +1,68 @@
-loinc_num,long_common_name,component,system,property,long_common_name_query_terms_count,long_common_name_similarity,component_query_terms_count,component_similarity,system_query_terms_count,system_similarity,property_query_terms_count,property_similarity
-1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,Bilirubin,Ser/Plas,MCnc,3,0.6102716938472819,2,0.45688827115299063,1,0.1801410360588515,0,0.0
-1971-1,Bilirubin.indirect [Mass/volume] in Serum or Plasma,Bilirubin.non-glucuronidated,Ser/Plas,MCnc,3,0.5813194208046836,2,0.22277387195206258,1,0.1801410360588515,0,0.0
-1968-7,Bilirubin.direct [Mass/volume] in Serum or Plasma,Bilirubin.glucuronidated+Bilirubin.albumin bound,Ser/Plas,MCnc,3,0.5456827090360458,2,0.3066452963831141,1,0.1801410360588515,0,0.0
-35192-4,Bilirubin.indirect [Mass or Moles/volume] in Serum or Plasma,Bilirubin.non-glucuronidated,Ser/Plas,MSCnc,3,0.49587073695694706,2,0.22277387195206258,1,0.1801410360588515,0,0.0
-14423-8,Bilirubin.total [Mass/volume] in Synovial fluid,Bilirubin,Synv fld,MCnc,2,0.3687463929022803,2,0.45688827115299063,0,0.0,0,0.0
-33870-7,Bilirubin.total [Presence] in Unspecified specimen,Bilirubin,XXX,PrThr,2,0.36242178005551656,2,0.45688827115299063,0,0.0,0,0.0
-4671-4,Protein C [Mass/volume] in Plasma,Protein C,Plas,MCnc,2,0.2341957299454146,1,0.0,1,0.25699424365435464,0,0.0
-17861-6,Calcium [Mass/volume] in Serum or Plasma,Calcium,Ser/Plas,MCnc,2,0.2200812556244201,0,0.0,1,0.1801410360588515,0,0.0
-14749-6,Glucose [Moles/volume] in Serum or Plasma,Glucose,Ser/Plas,SCnc,2,0.2200403413895714,0,0.0,1,0.1801410360588515,0,0.0
-1751-7,Albumin [Mass/volume] in Serum or Plasma,Albumin,Ser/Plas,MCnc,2,0.2100427643275012,1,0.0,1,0.1801410360588515,0,0.0
-2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,Cholesterol.in HDL,Ser/Plas,MCnc,2,0.20866686544151197,1,0.3345203436103139,1,0.1801410360588515,0,0.0
-74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",Glucose,Ser/Plas/Bld,MCnc,2,0.20619475906241144,0,0.0,1,0.12329901788950451,0,0.0
-2093-3,Cholesterol [Mass/volume] in Serum or Plasma,Cholesterol,Ser/Plas,MCnc,2,0.2031259742250407,0,0.0,1,0.1801410360588515,0,0.0
-2075-0,Chloride [Moles/volume] in Serum or Plasma,Chloride,Ser/Plas,SCnc,2,0.20018682123725928,0,0.0,1,0.1801410360588515,0,0.0
-2143-6,Cortisol [Mass/volume] in Serum or Plasma,Cortisol,Ser/Plas,MCnc,2,0.19374136708177692,0,0.0,1,0.1801410360588515,0,0.0
-3082-5,Tyrosine aminotransferase [Mass/volume] in Plasma,Tyrosine aminotransferase,Plas,MCnc,2,0.17587767073639615,1,0.0,1,0.25699424365435464,0,0.0
-1995-0,Calcium.ionized [Moles/volume] in Serum or Plasma,Calcium.ionized,Ser/Plas,SCnc,2,0.17393638209954546,0,0.0,1,0.1801410360588515,0,0.0
-1988-5,C reactive protein [Mass/volume] in Serum or Plasma,C reactive protein,Ser/Plas,MCnc,2,0.17060444467897673,1,0.0,1,0.1801410360588515,0,0.0
-19080-1,Choriogonadotropin [Units/volume] in Serum or Plasma,Choriogonadotropin,Ser/Plas,ACnc,2,0.16925550398371503,1,0.0,1,0.1801410360588515,0,0.0
-2039-6,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,Carcinoembryonic Ag,Ser/Plas,MCnc,2,0.1566771828063972,1,0.0,1,0.1801410360588515,0,0.0
-1798-8,Amylase [Enzymatic activity/volume] in Serum or Plasma,Amylase,Ser/Plas,CCnc,2,0.15583506587792634,0,0.0,1,0.1801410360588515,0,0.0
-2028-9,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",Carbon dioxide,Ser/Plas,SCnc,2,0.15069537387313217,0,0.0,1,0.1801410360588515,0,0.0
-35184-1,Fasting glucose [Mass or Moles/volume] in Serum or Plasma,Glucose^post CFst,Ser/Plas,MSCnc,2,0.1489656600389545,0,0.0,1,0.1801410360588515,0,0.0
-1759-0,Albumin/Globulin [Mass ratio] in Serum or Plasma,Albumin/Globulin,Ser/Plas,MCrto,2,0.14238275522893679,1,0.0,1,0.1801410360588515,0,0.0
-1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Alanine aminotransferase,Ser/Plas,CCnc,2,0.1396189442351372,1,0.0,1,0.1801410360588515,0,0.0
-1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Aspartate aminotransferase,Ser/Plas,CCnc,2,0.13961894423513718,1,0.0,1,0.1801410360588515,0,0.0
-2111-3,Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma,Choriogonadotropin.beta subunit,Ser/Plas,SCnc,2,0.1371734717623152,1,0.0,1,0.1801410360588515,0,0.0
-6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,Alkaline phosphatase,Ser/Plas,CCnc,2,0.13450526164365437,1,0.0,1,0.1801410360588515,0,0.0
-890-4,Blood group antibody screen [Presence] in Serum or Plasma,Blood group antibody screen,Ser/Plas,ACnc,2,0.13207488611588714,0,0.0,1,0.1801410360588515,0,0.0
-29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,Calcium^^corrected for albumin,Ser/Plas,SCnc,2,0.12945052533781665,1,0.0,1,0.1801410360588515,0,0.0
-30522-7,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,C reactive protein,Ser/Plas,MCnc,2,0.1080684348496578,1,0.0,1,0.1801410360588515,0,0.0
-1003-3,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,Indirect antiglobulin test.complement specific reagent,Ser/Plas,ACnc,2,0.10272482153568405,1,0.0,1,0.1801410360588515,0,0.0
-14764-5,Glucose [Moles/volume] in Serum or Plasma --3 hours post 100 g glucose PO,Glucose^3H post 100 g glucose PO,Ser/Plas,SCnc,2,0.10163709600607372,0,0.0,1,0.1801410360588515,0,0.0
-26464-8,Leukocytes [#/volume] in Blood,Leukocytes,Bld,NCnc,1,0.08178321992990555,0,0.0,0,0.0,0,0.0
-26474-7,Lymphocytes [#/volume] in Blood,Lymphocytes,Bld,NCnc,1,0.08178321992990555,0,0.0,0,0.0,0,0.0
-26484-6,Monocytes [#/volume] in Blood,Monocytes,Bld,NCnc,1,0.07678684899129383,0,0.0,0,0.0,0,0.0
-2069-3,Chloride [Moles/volume] in Blood,Chloride,Bld,SCnc,1,0.07369873282186189,0,0.0,0,0.0,0,0.0
-10331-7,Rh [Type] in Blood,Rh,Bld,Type,1,0.07098333074223066,0,0.0,0,0.0,0,0.0
-1959-6,Bicarbonate [Moles/volume] in Blood,Bicarbonate,Bld,SCnc,1,0.06997957012357153,0,0.0,0,0.0,0,0.0
-15076-3,Glucose [Moles/volume] in Urine,Glucose,Urine,SCnc,1,0.06509354147182968,0,0.0,1,0.0,0,0.0
-1994-3,Calcium.ionized [Moles/volume] in Blood,Calcium.ionized,Bld,SCnc,1,0.06302162938762944,0,0.0,0,0.0,0,0.0
-883-9,ABO group [Type] in Blood,ABO group,Bld,Type,1,0.061972352040228336,0,0.0,0,0.0,0,0.0
-26478-8,Lymphocytes/100 leukocytes in Blood,Lymphocytes/100 leukocytes,Bld,NFr,1,0.05487800074278425,0,0.0,0,0.0,0,0.0
-14747-0,Glucose [Moles/volume] in Pleural fluid,Glucose,Plr fld,SCnc,1,0.054744595089326,0,0.0,0,0.0,0,0.0
-20565-8,"Carbon dioxide, total [Moles/volume] in Blood",Carbon dioxide,Bld,SCnc,1,0.05395415549368767,0,0.0,0,0.0,0,0.0
-882-1,ABO & Rh group [Type] in Blood,ABO+Rh group,Bld,Type,1,0.052848580036471283,0,0.0,0,0.0,0,0.0
-54439-5,Calcium bilirubinate/Total in Stone,Calcium bilirubinate/Total,Calculus,MFr,2,0.051705990030929426,2,0.0,0,0.0,0,0.0
-2132-9,Cobalamin (Vitamin B12) [Mass/volume] in Serum,Cobalamins,Ser,MCnc,1,0.04870011795595714,1,0.0,0,0.0,0,0.0
-14578-9,ABO group [Type] in Blood from Blood product unit,ABO group,Bld^BPU,Type,1,0.039508864417881435,0,0.0,0,0.0,0,0.0
-13317-3,Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture,Staphylococcus aureus.methicillin resistant isolate,XXX,ACnc,1,0.029377666579607182,1,0.0,0,0.0,0,0.0
-20442-0,Hepatitis B virus DNA [#/volume] (viral load) in Serum by Probe with signal amplification,Hepatitis B virus DNA,Ser,NCnc,1,0.02917829881341178,0,0.0,0,0.0,0,0.0
-934-0,Blood product unit ID [#],Blood product unit ID,Dose,Num,0,0.0,0,0.0,0,0.0,0,0.0
-23658-8,Other Antibiotic [Susceptibility],Antibiotic XXX,Isolate,Susc,0,0.0,0,0.0,0,0.0,0,0.0
-19000-9,Vancomycin [Susceptibility],Vancomycin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0
-18865-6,Ampicillin+Sulbactam [Susceptibility],Ampicillin+Sulbactam,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0
-8310-5,Body temperature,Body temperature,^Patient,Temp,0,0.0,0,0.0,0,0.0,0,0.0
-18878-9,Cefazolin [Susceptibility],Cefazolin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0
-1250-0,Major crossmatch [interpretation],Major crossmatch,Ser/Plas,Imp,1,0.0,0,0.0,1,0.1801410360588515,1,0.0
-18955-5,Nitrofurantoin [Susceptibility],Nitrofurantoin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0
-18906-8,Ciprofloxacin [Susceptibility],Ciprofloxacin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0
-18864-9,Ampicillin [Susceptibility],Ampicillin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0
-18928-2,Gentamicin [Susceptibility],Gentamicin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0
-933-2,Blood product type,Blood product type,^BPU,Type,0,0.0,0,0.0,0,0.0,0,0.0
-20629-2,Levofloxacin [Susceptibility],Levofloxacin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0
-925-8,Blood product disposition [Type],Blood product disposition,^BPU,Type,0,0.0,0,0.0,0,0.0,0,0.0
-31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,Hematocrit,Bld,VFr,0,0.0,0,0.0,0,0.0,0,0.0
-18998-5,Trimethoprim+Sulfamethoxazole [Susceptibility],Trimethoprim+Sulfamethoxazole,Isolate,Susc,0,0.0,0,0.0,0,0.0,0,0.0
+loinc_num,long_common_name,component,system,property,long_common_name_query_terms_count,long_common_name_similarity,component_query_terms_count,component_similarity,system_query_terms_count,system_similarity,property_query_terms_count,property_similarity,ranking_score_baseline
+1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,Bilirubin,Ser/Plas,MCnc,3,0.6102716938472819,2,0.45688827115299063,1,0.1801410360588515,0,0.0,0.49244493440743603
+2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,Cholesterol.in HDL,Ser/Plas,MCnc,2,0.20866686544151197,1,0.3345203436103139,1,0.1801410360588515,0,0.0,0.44456108634961644
+1968-7,Bilirubin.direct [Mass/volume] in Serum or Plasma,Bilirubin.glucuronidated+Bilirubin.albumin bound,Ser/Plas,MCnc,3,0.5456827090360458,2,0.3066452963831141,1,0.1801410360588515,0,0.0,0.41435544683480097
+1971-1,Bilirubin.indirect [Mass/volume] in Serum or Plasma,Bilirubin.non-glucuronidated,Ser/Plas,MCnc,3,0.5813194208046836,2,0.22277387195206258,1,0.1801410360588515,0,0.0,0.31784208506101846
+35192-4,Bilirubin.indirect [Mass or Moles/volume] in Serum or Plasma,Bilirubin.non-glucuronidated,Ser/Plas,MSCnc,3,0.49587073695694706,2,0.22277387195206258,1,0.1801410360588515,0,0.0,0.27041875185510317
+14423-8,Bilirubin.total [Mass/volume] in Synovial fluid,Bilirubin,Synv fld,MCnc,2,0.3687463929022803,2,0.45688827115299063,0,0.0,0,0.0,0.24608060099700102
+33870-7,Bilirubin.total [Presence] in Unspecified specimen,Bilirubin,XXX,PrThr,2,0.36242178005551656,2,0.45688827115299063,0,0.0,0,0.0,0.20222860859322395
+4671-4,Protein C [Mass/volume] in Plasma,Protein C,Plas,MCnc,2,0.2341957299454146,1,0.0,1,0.25699424365435464,0,0.0,0.107366074912636
+17861-6,Calcium [Mass/volume] in Serum or Plasma,Calcium,Ser/Plas,MCnc,2,0.2200812556244201,0,0.0,1,0.1801410360588515,0,0.0,0.10722821167670595
+14749-6,Glucose [Moles/volume] in Serum or Plasma,Glucose,Ser/Plas,SCnc,2,0.2200403413895714,0,0.0,1,0.1801410360588515,0,0.0,0.10673791147003557
+1751-7,Albumin [Mass/volume] in Serum or Plasma,Albumin,Ser/Plas,MCnc,2,0.2100427643275012,1,0.0,1,0.1801410360588515,0,0.0,0.10453441921743434
+74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",Glucose,Ser/Plas/Bld,MCnc,2,0.20619475906241144,0,0.0,1,0.12329901788950451,0,0.0,0.09868984159386852
+2093-3,Cholesterol [Mass/volume] in Serum or Plasma,Cholesterol,Ser/Plas,MCnc,2,0.2031259742250407,0,0.0,1,0.1801410360588515,0,0.0,0.09736720537853276
+2075-0,Chloride [Moles/volume] in Serum or Plasma,Chloride,Ser/Plas,SCnc,2,0.20018682123725928,0,0.0,1,0.1801410360588515,0,0.0,0.09537319746603541
+2143-6,Cortisol [Mass/volume] in Serum or Plasma,Cortisol,Ser/Plas,MCnc,2,0.19374136708177692,0,0.0,1,0.1801410360588515,0,0.0,0.09210525772062901
+19080-1,Choriogonadotropin [Units/volume] in Serum or Plasma,Choriogonadotropin,Ser/Plas,ACnc,2,0.16925550398371503,1,0.0,1,0.1801410360588515,0,0.0,0.08610365068135704
+1798-8,Amylase [Enzymatic activity/volume] in Serum or Plasma,Amylase,Ser/Plas,CCnc,2,0.15583506587792634,0,0.0,1,0.1801410360588515,0,0.0,0.08240034662953613
+1995-0,Calcium.ionized [Moles/volume] in Serum or Plasma,Calcium.ionized,Ser/Plas,SCnc,2,0.17393638209954546,0,0.0,1,0.1801410360588515,0,0.0,0.08119269228599944
+30522-7,C reactive protein [Mass/volume] in Serum or Plasma by High sensitivity method,C reactive protein,Ser/Plas,MCnc,2,0.1080684348496578,1,0.0,1,0.1801410360588515,0,0.0,0.0796434275150349
+1988-5,C reactive protein [Mass/volume] in Serum or Plasma,C reactive protein,Ser/Plas,MCnc,2,0.17060444467897673,1,0.0,1,0.1801410360588515,0,0.0,0.0796434275150349
+3082-5,Tyrosine aminotransferase [Mass/volume] in Plasma,Tyrosine aminotransferase,Plas,MCnc,2,0.17587767073639615,1,0.0,1,0.25699424365435464,0,0.0,0.07920318501277376
+2028-9,"Carbon dioxide, total [Moles/volume] in Serum or Plasma",Carbon dioxide,Ser/Plas,SCnc,2,0.15069537387313217,0,0.0,1,0.1801410360588515,0,0.0,0.07665101728363884
+2039-6,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,Carcinoembryonic Ag,Ser/Plas,MCnc,2,0.1566771828063972,1,0.0,1,0.1801410360588515,0,0.0,0.07244513470269326
+1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Alanine aminotransferase,Ser/Plas,CCnc,2,0.1396189442351372,1,0.0,1,0.1801410360588515,0,0.0,0.07080801477399755
+1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,Aspartate aminotransferase,Ser/Plas,CCnc,2,0.13961894423513718,1,0.0,1,0.1801410360588515,0,0.0,0.07080801477399755
+6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,Alkaline phosphatase,Ser/Plas,CCnc,2,0.13450526164365437,1,0.0,1,0.1801410360588515,0,0.0,0.06742921480444686
+1759-0,Albumin/Globulin [Mass ratio] in Serum or Plasma,Albumin/Globulin,Ser/Plas,MCrto,2,0.14238275522893679,1,0.0,1,0.1801410360588515,0,0.0,0.06602051909008239
+2111-3,Choriogonadotropin.beta subunit [Moles/volume] in Serum or Plasma,Choriogonadotropin.beta subunit,Ser/Plas,SCnc,2,0.1371734717623152,1,0.0,1,0.1801410360588515,0,0.0,0.06259068840976012
+29265-6,Calcium [Moles/volume] corrected for albumin in Serum or Plasma,Calcium^^corrected for albumin,Ser/Plas,SCnc,2,0.12945052533781665,1,0.0,1,0.1801410360588515,0,0.0,0.05943903678699531
+890-4,Blood group antibody screen [Presence] in Serum or Plasma,Blood group antibody screen,Ser/Plas,ACnc,2,0.13207488611588714,0,0.0,1,0.1801410360588515,0,0.0,0.059173513076840566
+35184-1,Fasting glucose [Mass or Moles/volume] in Serum or Plasma,Glucose^post CFst,Ser/Plas,MSCnc,2,0.1489656600389545,0,0.0,1,0.1801410360588515,0,0.0,0.058746075534686845
+1250-0,Major crossmatch [interpretation],Major crossmatch,Ser/Plas,Imp,1,0.0,0,0.0,1,0.1801410360588515,1,0.0,0.05665406248700428
+14764-5,Glucose [Moles/volume] in Serum or Plasma --3 hours post 100 g glucose PO,Glucose^3H post 100 g glucose PO,Ser/Plas,SCnc,2,0.10163709600607372,0,0.0,1,0.1801410360588515,0,0.0,0.046228956678921726
+1003-3,Indirect antiglobulin test.complement specific reagent [Presence] in Serum or Plasma,Indirect antiglobulin test.complement specific reagent,Ser/Plas,ACnc,2,0.10272482153568405,1,0.0,1,0.1801410360588515,0,0.0,0.04425552427558574
+934-0,Blood product unit ID [#],Blood product unit ID,Dose,Num,0,0.0,0,0.0,0,0.0,0,0.0,0.0
+20565-8,"Carbon dioxide, total [Moles/volume] in Blood",Carbon dioxide,Bld,SCnc,1,0.05395415549368767,0,0.0,0,0.0,0,0.0,0.0
+20442-0,Hepatitis B virus DNA [#/volume] (viral load) in Serum by Probe with signal amplification,Hepatitis B virus DNA,Ser,NCnc,1,0.02917829881341178,0,0.0,0,0.0,0,0.0,0.0
+14747-0,Glucose [Moles/volume] in Pleural fluid,Glucose,Plr fld,SCnc,1,0.054744595089326,0,0.0,0,0.0,0,0.0,0.0
+883-9,ABO group [Type] in Blood,ABO group,Bld,Type,1,0.061972352040228336,0,0.0,0,0.0,0,0.0,0.0
+14578-9,ABO group [Type] in Blood from Blood product unit,ABO group,Bld^BPU,Type,1,0.039508864417881435,0,0.0,0,0.0,0,0.0,0.0
+18864-9,Ampicillin [Susceptibility],Ampicillin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0,0.0
+19000-9,Vancomycin [Susceptibility],Vancomycin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0,0.0
+18906-8,Ciprofloxacin [Susceptibility],Ciprofloxacin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0,0.0
+8310-5,Body temperature,Body temperature,^Patient,Temp,0,0.0,0,0.0,0,0.0,0,0.0,0.0
+26464-8,Leukocytes [#/volume] in Blood,Leukocytes,Bld,NCnc,1,0.08178321992990555,0,0.0,0,0.0,0,0.0,0.0
+882-1,ABO & Rh group [Type] in Blood,ABO+Rh group,Bld,Type,1,0.052848580036471283,0,0.0,0,0.0,0,0.0,0.0
+13317-3,Methicillin resistant Staphylococcus aureus [Presence] in Unspecified specimen by Organism specific culture,Staphylococcus aureus.methicillin resistant isolate,XXX,ACnc,1,0.029377666579607182,1,0.0,0,0.0,0,0.0,0.0
+1994-3,Calcium.ionized [Moles/volume] in Blood,Calcium.ionized,Bld,SCnc,1,0.06302162938762944,0,0.0,0,0.0,0,0.0,0.0
+18878-9,Cefazolin [Susceptibility],Cefazolin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0,0.0
+10331-7,Rh [Type] in Blood,Rh,Bld,Type,1,0.07098333074223066,0,0.0,0,0.0,0,0.0,0.0
+18955-5,Nitrofurantoin [Susceptibility],Nitrofurantoin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0,0.0
+1959-6,Bicarbonate [Moles/volume] in Blood,Bicarbonate,Bld,SCnc,1,0.06997957012357153,0,0.0,0,0.0,0,0.0,0.0
+18865-6,Ampicillin+Sulbactam [Susceptibility],Ampicillin+Sulbactam,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0,0.0
+23658-8,Other Antibiotic [Susceptibility],Antibiotic XXX,Isolate,Susc,0,0.0,0,0.0,0,0.0,0,0.0,0.0
+20629-2,Levofloxacin [Susceptibility],Levofloxacin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0,0.0
+26484-6,Monocytes [#/volume] in Blood,Monocytes,Bld,NCnc,1,0.07678684899129383,0,0.0,0,0.0,0,0.0,0.0
+26474-7,Lymphocytes [#/volume] in Blood,Lymphocytes,Bld,NCnc,1,0.08178321992990555,0,0.0,0,0.0,0,0.0,0.0
+26478-8,Lymphocytes/100 leukocytes in Blood,Lymphocytes/100 leukocytes,Bld,NFr,1,0.05487800074278425,0,0.0,0,0.0,0,0.0,0.0
+933-2,Blood product type,Blood product type,^BPU,Type,0,0.0,0,0.0,0,0.0,0,0.0,0.0
+18928-2,Gentamicin [Susceptibility],Gentamicin,Isolate,Susc,1,0.0,1,0.0,0,0.0,0,0.0,0.0
+925-8,Blood product disposition [Type],Blood product disposition,^BPU,Type,0,0.0,0,0.0,0,0.0,0,0.0,0.0
+15076-3,Glucose [Moles/volume] in Urine,Glucose,Urine,SCnc,1,0.06509354147182968,0,0.0,1,0.0,0,0.0,0.0
+2132-9,Cobalamin (Vitamin B12) [Mass/volume] in Serum,Cobalamins,Ser,MCnc,1,0.04870011795595714,1,0.0,0,0.0,0,0.0,0.0
+31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,Hematocrit,Bld,VFr,0,0.0,0,0.0,0,0.0,0,0.0,0.0
+2069-3,Chloride [Moles/volume] in Blood,Chloride,Bld,SCnc,1,0.07369873282186189,0,0.0,0,0.0,0,0.0,0.0
+54439-5,Calcium bilirubinate/Total in Stone,Calcium bilirubinate/Total,Calculus,MFr,2,0.051705990030929426,2,0.0,0,0.0,0,0.0,0.0
+18998-5,Trimethoprim+Sulfamethoxazole [Susceptibility],Trimethoprim+Sulfamethoxazole,Isolate,Susc,0,0.0,0,0.0,0,0.0,0,0.0,0.0
