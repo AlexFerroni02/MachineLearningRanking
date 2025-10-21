@@ -94,7 +94,7 @@ python scripts/genera_feature_e_ranking_pulito.py
 
 This script takes the ranked lists from the previous step and simulates user click behavior to generate training signals.
 
-**Script**: `simula_clicks.py`
+**Script**: `simulate_clicks.py`
 
 **What it does**:
 
@@ -109,7 +109,7 @@ This script takes the ranked lists from the previous step and simulates user cli
 **How to run it**:
 
 ~~~bash
-python scripts/simula_clicks.py
+python scripts/simulate_clicks.py
 ~~~
 
 **Output**:
