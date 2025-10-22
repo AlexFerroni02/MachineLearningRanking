@@ -1,135 +1,125 @@
-import config  # Imports all paths and parameters from config.py
+import pandas as pd
+import numpy as np
+from sklearn.svm import SVC
+from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.metrics import accuracy_score
+from sklearn.preprocessing import StandardScaler
+import joblib
 import os
-import shutil # For optionally clearing directories
+import json
+import glob
 
-# Import the main functions from your pipeline modules
-from ml_pipeline import data_processing, simulation, training_prep, training
+# --- 1. CONFIGURATION ---
+CONCEPTUAL_PAIRS_FILE = "data/conceptual_preference_pairs.csv"
+FEATURE_RANKINGS_DIR = "data/feature_rankings"
+MODEL_OUTPUT_FILE = "model/ranking_svm_model_optimized.joblib"
+SCALER_OUTPUT_FILE = "model/feature_scaler.joblib"
+FEATURE_NAMES_FILE = "model/feature_names.json"
 
-# --- Optional: Function to clear previous intermediate data ---
-def clear_intermediate_data():
-    """Removes generated data folders for a clean run."""
-    print("Clearing intermediate data directories...")
-    dirs_to_remove = [
-        config.FEATURE_RANKINGS_DIR,
-        config.CLICK_LOGS_DIR,
-    ]
-    files_to_remove = [
-        config.CONCEPTUAL_PAIRS_FILE,
-    ]
+# --- 2. SUPPORT FUNCTIONS ---
+def get_feature_columns(df):
+    """Identifies numeric feature columns (excluding '_diff')."""
+    exclude_cols = ['loinc_num', 'long_common_name', 'component', 'system', 'property', 'clicked']
+    feature_cols = [col for col in df.columns if col not in exclude_cols and pd.api.types.is_numeric_dtype(df[col])]
+    return feature_cols
 
-    for dir_path in dirs_to_remove:
-        if os.path.exists(dir_path):
-            try:
-                shutil.rmtree(dir_path)
-                print(f"  Removed directory: {dir_path}")
-            except OSError as e:
-                print(f"  Error removing directory {dir_path}: {e}")
+def load_all_features(feature_dir):
+    """Loads and merges all raw features from all ranking files."""
+    all_dfs = []
+    for file_path in glob.glob(os.path.join(feature_dir, "*.csv")):
+        all_dfs.append(pd.read_csv(file_path))
 
-    for file_path in files_to_remove:
-         if os.path.exists(file_path):
-            try:
-                os.remove(file_path)
-                print(f"  Removed file: {file_path}")
-            except OSError as e:
-                print(f"  Error removing file {file_path}: {e}")
+    # Merge all documents into a single DataFrame and remove duplicates
+    df_all_features = pd.concat(all_dfs).drop_duplicates(subset=['loinc_num']).set_index('loinc_num')
+    return df_all_features
 
-# --- Main Pipeline Execution ---
+def create_difference_vectors(pairs_df, features_df, feature_cols, scaler):
+    """
+    Creates scaled difference vectors from preference pairs
+    and a PRE-TRAINED scaler.
+    """
+    vectors = []
+    labels = []
+
+    for index, row in pairs_df.iterrows():
+        try:
+            vec_pref = features_df.loc[row['preferred_doc_id'], feature_cols]
+            vec_not_pref = features_df.loc[row['not_preferred_doc_id'], feature_cols]
+
+            # Transform raw vectors using the scaler
+            vec_pref_scaled = scaler.transform(vec_pref.values.reshape(1, -1))[0]
+            vec_not_pref_scaled = scaler.transform(vec_not_pref.values.reshape(1, -1))[0]
+
+            # Compute the difference on scaled data
+            vectors.append(vec_pref_scaled - vec_not_pref_scaled)
+            labels.append(1)
+
+            # Add the inverse pair
+            vectors.append(vec_not_pref_scaled - vec_pref_scaled)
+            labels.append(-1)
+
+        except KeyError as e:
+            # Skip the pair if an ID is not found
+            continue
+
+    return pd.DataFrame(vectors, columns=[f"{col}_diff" for col in feature_cols]), pd.Series(labels, name="label")
+# --- 3. MAIN FUNCTION ---
+
 def main():
-    """
-    Orchestrates the entire LTR model training pipeline,
-    with a pause after click simulation for manual review.
-    """
-    print("--- STARTING LTR MODEL TRAINING PIPELINE ---")
-
-    # --- Optional: Clean previous run ---
-    CLEAN_RUN = True
-    if CLEAN_RUN:
-        clear_intermediate_data()
-        os.makedirs(config.MODELS_DIR, exist_ok=True) # Ensure models dir exists
-    # ---
-
-    # --- Phase 1: Feature Engineering ---
-    print("\n[PHASE 1/3] Running Feature Engineering...")
-    success = data_processing.run_feature_engineering(
-        xls_file_path=config.XLS_FILE,
-        output_dir=config.FEATURE_RANKINGS_DIR,
-        system_map=config.SYSTEM_MAP,
-        property_map=config.PROPERTY_MAP,
-        loinc_text_columns=config.LOINC_TEXT_COLUMNS
-    )
-    if not success:
-         print("Feature engineering failed. Aborting pipeline.")
-         return
-    print("[PHASE 1/3] Completed.")
-
-    # --- Phase 2: Click Simulation ---
-    print("\n[PHASE 2/3] Running Click Simulation...")
-    success = simulation.run_click_simulation(
-        input_dir=config.FEATURE_RANKINGS_DIR,
-        output_dir=config.CLICK_LOGS_DIR,
-        prob_param=config.CLICK_PROBABILITY_PARAM # Using the simple model param
-    )
-    if not success:
-         print("Click simulation failed. Aborting pipeline.")
-         return
-    print("[PHASE 2/3] Completed.")
-
-    # --- PAUSE FOR MANUAL CHECK ---
-    print("\n-----------------------------------------------------")
-    print(f">>> PIPELINE PAUSED <<<")
-    print(f"Please manually inspect the generated click log files in:")
-    print(f"    {os.path.abspath(config.CLICK_LOGS_DIR)}")
-    print("Check the 'clicked' column distribution.")
-    input("Press Enter in this terminal to continue the pipeline...")
-    print("-----------------------------------------------------")
-    # --- END PAUSE ---
-
-
-    # --- Phase 3: Training Data Preparation (Pair Creation + Transformation) ---
-    print("\n[PHASE 3/4] Running Training Data Preparation...")
-    # This phase now reads from the click logs you just checked
-    success, feature_names_used = training_prep.run_training_preparation(
-        click_logs_dir=config.CLICK_LOGS_DIR,
-        conceptual_pairs_file=config.CONCEPTUAL_PAIRS_FILE,
-        feature_rankings_dir=config.FEATURE_RANKINGS_DIR,
-        svm_training_dataset_file=config.SVM_TRAINING_DATASET_FILE # Path from config
-    )
-    if not success:
-         print("Training data preparation failed. Aborting.")
-         return
-    print("[PHASE 3/4] Completed.")
-
-
-    # --- Phase 4: Model Training ---
-    print("\n[PHASE 4/4] Running Model Training...")
-    success_train = training.train_model(
-         conceptual_pairs_file=config.CONCEPTUAL_PAIRS_FILE, # Still needed for doc IDs
-         feature_rankings_dir=config.FEATURE_RANKINGS_DIR,  # Needed for scaler fitting
-         model_output_file=config.MODEL_OUTPUT_FILE,
-         scaler_output_file=config.SCALER_OUTPUT_FILE,
-         feature_names_output_file=config.FEATURE_NAMES_FILE,
-         grid_search_params=config.GRID_SEARCH_PARAMS
-    )
-    if not success_train:
-        print("Model training failed.")
+    # 1. Load conceptual preference pairs
+    try:
+        df_pairs = pd.read_csv(CONCEPTUAL_PAIRS_FILE)
+    except FileNotFoundError:
+        print(f"ERROR: File '{CONCEPTUAL_PAIRS_FILE}' not found.")
         return
-    print("[PHASE 4/4] Completed.")
+
+    # 2. Load ALL raw features for ALL documents
+    df_all_features = load_all_features(FEATURE_RANKINGS_DIR)
+    feature_columns = get_feature_columns(df_all_features)
+
+    # 3. Split preference pairs into Train and Test
+    # This is the FUNDAMENTAL step to avoid data leakage
+    pairs_train, pairs_test = train_test_split(df_pairs, test_size=0.2, random_state=42)
+
+    # 4. Train the Scaler ONLY on features of documents appearing in the TRAIN set
+    train_doc_ids = pd.unique(np.concatenate((pairs_train['preferred_doc_id'], pairs_train['not_preferred_doc_id'])))
+    train_features = df_all_features.loc[train_doc_ids, feature_columns]
+
+    scaler = StandardScaler()
+    scaler.fit(train_features)
+
+    # 5. Create SCALED difference vectors for training and test
+    X_train, y_train = create_difference_vectors(pairs_train, df_all_features, feature_columns, scaler)
+
+    X_test, y_test = create_difference_vectors(pairs_test, df_all_features, feature_columns, scaler)
+
+    # 6. Run GridSearchCV
+    param_grid = {'C': [0.1, 1, 10, 100]}
+    svm = SVC(kernel='linear')
+    grid_search = GridSearchCV(estimator=svm, param_grid=param_grid, cv=5, verbose=2, n_jobs=-1)
 
 
-    print("\n--- LTR MODEL TRAINING PIPELINE COMPLETED SUCCESSFULLY ---")
-    # ... (Final print messages) ...
+    grid_search.fit(X_train, y_train)
+
+    # 7. Get and evaluate the best model
+    best_model = grid_search.best_estimator_
+
+    y_pred = best_model.predict(X_test)
+    accuracy = accuracy_score(y_test, y_pred)
+    print(f"\nFinal model accuracy on the test set: {accuracy:.2f}")
+
+    # 8. Save model, scaler, and feature names
+    joblib.dump(best_model, MODEL_OUTPUT_FILE)
+    joblib.dump(scaler, SCALER_OUTPUT_FILE)
+    # Save RAW feature names (without _diff)
+    with open(FEATURE_NAMES_FILE, 'w') as f:
+        json.dump(feature_columns, f)
+
+    # 9. Analyze model weights
+    print("\n--- Model Weights (Feature Importance) ---")
+    weights = best_model.coef_[0]
+    df_weights = pd.DataFrame({'feature': X_train.columns, 'weight': weights})
+    print(df_weights.sort_values(by='weight', ascending=False))
 
 if __name__ == "__main__":
-    # Ensure necessary parameters are in config.py
-    required_configs = ['XLS_FILE', 'FEATURE_RANKINGS_DIR', 'CLICK_LOGS_DIR',
-                        'CONCEPTUAL_PAIRS_FILE', 'MODELS_DIR', 'MODEL_OUTPUT_FILE',
-                        'SCALER_OUTPUT_FILE', 'FEATURE_NAMES_FILE', 'SYSTEM_MAP',
-                        'PROPERTY_MAP', 'LOINC_TEXT_COLUMNS', 'CLICK_PROBABILITY_PARAM',
-                        'GRID_SEARCH_PARAMS', 'SVM_TRAINING_DATASET_FILE'] # Added SVM training file path
-    missing_configs = [cfg for cfg in required_configs if not hasattr(config, cfg)]
-    if missing_configs:
-        print("ERROR: Your config.py file is missing the following required variables:")
-        for cfg in missing_configs:
-            print(f"- {cfg}")
-    else:
-        main()
+    main()

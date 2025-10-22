@@ -16,9 +16,9 @@ from collections import Counter
 
 # ---- CONFIG ----
 N_TEMPLATES_PER_COMPONENT = 3
-LOINC_CORE_PATH = "../../data/LoincTableCore/LoincTableCore.csv"
-ORIGINAL_DATASET_PATH = "../../data/loinc_dataset-v2.xlsx"
-OUTPUT_XLSX_PATH = "../../data/expanded_loinc_dataset.xlsx"
+LOINC_CORE_PATH = "../data/LoincTableCore/LoincTableCore.csv"
+ORIGINAL_DATASET_PATH = "../data/loinc_dataset-v2.xlsx"
+OUTPUT_XLSX_PATH = "../data/expanded_loinc_dataset.xlsx"
 MAX_QUERIES = 50
 MAX_LOINC_TERMS_PER_QUERY = 50  # max LOINC terms per query
 

@@ -1,22 +1,22 @@
 loinc_num,long_common_name,component,system,property,long_common_name_query_terms_count,long_common_name_similarity,component_query_terms_count,component_similarity,system_query_terms_count,system_similarity,property_query_terms_count,property_similarity,ranking_score_baseline,clicked
-74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",Glucose,Ser/Plas/Bld,MCnc,3,0.7038835651334253,1,0.5057737028830255,1,0.262381232999269,0,0.0,0.5041097802433909,True
+74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",Glucose,Ser/Plas/Bld,MCnc,3,0.7038835651334253,1,0.5057737028830255,1,0.262381232999269,0,0.0,0.5041097802433909,False
 2085-9,Cholesterol in HDL [Mass/volume] in Serum or Plasma,Cholesterol.in HDL,Ser/Plas,MCnc,1,0.1005304821055695,1,0.3703128391773403,0,0.0,0,0.0,0.3655850838986261,False
-14749-6,Glucose [Moles/volume] in Serum or Plasma,Glucose,Ser/Plas,SCnc,2,0.52287774912849,1,0.5057737028830255,0,0.0,0,0.0,0.3563301087897979,True
+14749-6,Glucose [Moles/volume] in Serum or Plasma,Glucose,Ser/Plas,SCnc,2,0.52287774912849,1,0.5057737028830255,0,0.0,0,0.0,0.3563301087897979,False
 14764-5,Glucose [Moles/volume] in Serum or Plasma --3 hours post 100 g glucose PO,Glucose^3H post 100 g glucose PO,Ser/Plas,SCnc,2,0.4493206611209762,1,0.2972443216361616,0,0.0,0,0.0,0.307823049389537,False
 15076-3,Glucose [Moles/volume] in Urine,Glucose,Urine,SCnc,2,0.4461403484735102,1,0.5057737028830255,1,0.0,0,0.0,0.2813734225988175,False
-14747-0,Glucose [Moles/volume] in Pleural fluid,Glucose,Plr fld,SCnc,2,0.3740484242948644,1,0.5057737028830255,0,0.0,0,0.0,0.2343527816602931,True
+14747-0,Glucose [Moles/volume] in Pleural fluid,Glucose,Plr fld,SCnc,2,0.3740484242948644,1,0.5057737028830255,0,0.0,0,0.0,0.2343527816602931,False
 35184-1,Fasting glucose [Mass or Moles/volume] in Serum or Plasma,Glucose^post CFst,Ser/Plas,MSCnc,2,0.3515608358170468,1,0.2310820727048718,0,0.0,0,0.0,0.194006558455188,False
 2069-3,Chloride [Moles/volume] in Blood,Chloride,Bld,SCnc,2,0.2870028418074499,0,0.0,1,0.3660505887161585,0,0.0,0.1670209340781058,False
 10331-7,Rh [Type] in Blood,Rh,Bld,Type,2,0.2763558164887404,0,0.0,1,0.3660505887161585,0,0.0,0.1602052200719545,False
-1959-6,Bicarbonate [Moles/volume] in Blood,Bicarbonate,Bld,SCnc,2,0.2724221931059206,0,0.0,1,0.3660505887161585,0,0.0,0.1581506649990501,False
+1959-6,Bicarbonate [Moles/volume] in Blood,Bicarbonate,Bld,SCnc,2,0.2724221931059206,0,0.0,1,0.3660505887161585,0,0.0,0.1581506649990501,True
 26474-7,Lymphocytes [#/volume] in Blood,Lymphocytes,Bld,NCnc,2,0.3187537757869162,0,0.0,1,0.3660505887161585,0,0.0,0.1553558946402656,False
-26464-8,Leukocytes [#/volume] in Blood,Leukocytes,Bld,NCnc,2,0.3187537757869162,0,0.0,1,0.3660505887161585,0,0.0,0.1553558946402656,False
+26464-8,Leukocytes [#/volume] in Blood,Leukocytes,Bld,NCnc,2,0.3187537757869162,0,0.0,1,0.3660505887161585,0,0.0,0.1553558946402656,True
 26484-6,Monocytes [#/volume] in Blood,Monocytes,Bld,NCnc,2,0.299121670516503,0,0.0,1,0.3660505887161585,0,0.0,0.1481411963394874,False
 1994-3,Calcium.ionized [Moles/volume] in Blood,Calcium.ionized,Bld,SCnc,2,0.245184346093391,0,0.0,1,0.3660505887161585,0,0.0,0.1417450078138484,False
 883-9,ABO group [Type] in Blood,ABO group,Bld,Type,2,0.2410810759272654,0,0.0,1,0.3660505887161585,0,0.0,0.139073763380521,False
-20565-8,"Carbon dioxide, total [Moles/volume] in Blood",Carbon dioxide,Bld,SCnc,2,0.2097592531299559,0,0.0,1,0.3660505887161585,0,0.0,0.1336973213918669,False
+20565-8,"Carbon dioxide, total [Moles/volume] in Blood",Carbon dioxide,Bld,SCnc,2,0.2097592531299559,0,0.0,1,0.3660505887161585,0,0.0,0.1336973213918669,True
 882-1,ABO & Rh group [Type] in Blood,ABO+Rh group,Bld,Type,2,0.2054449238455057,0,0.0,1,0.3660505887161585,0,0.0,0.1180160071569781,False
-31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,Hematocrit,Bld,VFr,1,0.1213947340110278,0,0.0,1,0.3660505887161585,0,0.0,0.1178350061998655,False
+31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,Hematocrit,Bld,VFr,1,0.1213947340110278,0,0.0,1,0.3660505887161585,0,0.0,0.1178350061998655,True
 925-8,Blood product disposition [Type],Blood product disposition,^BPU,Type,1,0.1748575195868659,1,0.2763078445436629,0,0.0,0,0.0,0.1133059577739095,False
 933-2,Blood product type,Blood product type,^BPU,Type,1,0.2287901051871601,1,0.2763078445436629,0,0.0,0,0.0,0.1043834621451178,False
 890-4,Blood group antibody screen [Presence] in Serum or Plasma,Blood group antibody screen,Ser/Plas,ACnc,2,0.1774413138749616,1,0.2334476581297704,0,0.0,0,0.0,0.1025627719918573,False

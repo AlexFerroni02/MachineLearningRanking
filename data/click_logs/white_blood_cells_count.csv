@@ -1,19 +1,19 @@
 loinc_num,long_common_name,component,system,property,long_common_name_query_terms_count,long_common_name_similarity,component_query_terms_count,component_similarity,system_query_terms_count,system_similarity,property_query_terms_count,property_similarity,ranking_score_baseline,clicked
-74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",Glucose,Ser/Plas/Bld,MCnc,1,0.104567718830876,0,0.0,1,0.2191841500160768,0,0.0,0.1188636981912405,False
+74774-1,"Glucose [Mass/volume] in Serum, Plasma or Blood",Glucose,Ser/Plas/Bld,MCnc,1,0.104567718830876,0,0.0,1,0.2191841500160768,0,0.0,0.1188636981912405,True
 2069-3,Chloride [Moles/volume] in Blood,Chloride,Bld,SCnc,1,0.1082145946615743,0,0.0,1,0.3057859216282411,0,0.0,0.1158718751233831,True
 10331-7,Rh [Type] in Blood,Rh,Bld,Type,1,0.1042058688117701,0,0.0,1,0.3057859216282411,0,0.0,0.1111434285573489,False
 1959-6,Bicarbonate [Moles/volume] in Blood,Bicarbonate,Bld,SCnc,1,0.102724649163836,0,0.0,1,0.3057859216282411,0,0.0,0.1097180674183053,False
 26464-8,Leukocytes [#/volume] in Blood,Leukocytes,Bld,NCnc,1,0.120165075904046,0,0.0,1,0.3057859216282411,0,0.0,0.1077791770402873,False
-26474-7,Lymphocytes [#/volume] in Blood,Lymphocytes,Bld,NCnc,1,0.120165075904046,0,0.0,1,0.3057859216282411,0,0.0,0.1077791770402873,False
+26474-7,Lymphocytes [#/volume] in Blood,Lymphocytes,Bld,NCnc,1,0.120165075904046,0,0.0,1,0.3057859216282411,0,0.0,0.1077791770402873,True
 26484-6,Monocytes [#/volume] in Blood,Monocytes,Bld,NCnc,1,0.1127766483128646,0,0.0,1,0.3057859216282411,0,0.0,0.1027739324871123,False
 1994-3,Calcium.ionized [Moles/volume] in Blood,Calcium.ionized,Bld,SCnc,1,0.0924658100752268,0,0.0,1,0.3057859216282411,0,0.0,0.0983365344914702,False
 883-9,ABO group [Type] in Blood,ABO group,Bld,Type,1,0.0909200202654639,0,0.0,1,0.3057859216282411,0,0.0,0.096483341039338,False
 20565-8,"Carbon dioxide, total [Moles/volume] in Blood",Carbon dioxide,Bld,SCnc,1,0.0791177441385311,0,0.0,1,0.3057859216282411,0,0.0,0.0927533989326431,False
-882-1,ABO & Rh group [Type] in Blood,ABO+Rh group,Bld,Type,1,0.0774917259986399,0,0.0,1,0.3057859216282411,0,0.0,0.0818743837072471,True
+882-1,ABO & Rh group [Type] in Blood,ABO+Rh group,Bld,Type,1,0.0774917259986399,0,0.0,1,0.3057859216282411,0,0.0,0.0818743837072471,False
 31100-1,Hematocrit [Volume Fraction] of Blood by Impedance,Hematocrit,Bld,VFr,1,0.0604092115468441,0,0.0,1,0.3057859216282411,0,0.0,0.0817488130988948,False
 925-8,Blood product disposition [Type],Blood product disposition,^BPU,Type,1,0.0870136993777658,1,0.2007358680395656,0,0.0,0,0.0,0.0786067558679448,False
 933-2,Blood product type,Blood product type,^BPU,Type,1,0.1138519720535845,1,0.2007358680395656,0,0.0,0,0.0,0.0724167156493648,False
-890-4,Blood group antibody screen [Presence] in Serum or Plasma,Blood group antibody screen,Ser/Plas,ACnc,1,0.0669356481088566,1,0.1695982188774886,0,0.0,0,0.0,0.0711535998415085,True
+890-4,Blood group antibody screen [Presence] in Serum or Plasma,Blood group antibody screen,Ser/Plas,ACnc,1,0.0669356481088566,1,0.1695982188774886,0,0.0,0,0.0,0.0711535998415085,False
 26478-8,Lymphocytes/100 leukocytes in Blood,Lymphocytes/100 leukocytes,Bld,NFr,1,0.0804767183589389,0,0.0,1,0.3057859216282411,0,0.0,0.0706028820227492,False
 934-0,Blood product unit ID [#],Blood product unit ID,Dose,Num,1,0.0819694074187149,1,0.1675027204190381,0,0.0,0,0.0,0.066463348832854,False
 33870-7,Bilirubin.total [Presence] in Unspecified specimen,Bilirubin,XXX,PrThr,0,0.0,0,0.0,0,0.0,0,0.0,0.0,False
