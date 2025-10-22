@@ -15,7 +15,6 @@ SYSTEM_MAP = {'bld': 'blood', 'plas': 'plasma', 'ser': 'serum', 'ur': 'urine', '
 PROPERTY_MAP = {'mcnc': 'mass concentration', 'scnc': 'substance concentration', 'cnt': 'count', 'titr': 'titer',
                 'prthr': 'presence or threshold'}
 
-
 # --- 2. SUPPORT FUNCTION ---
 
 def normalize_loinc_code(code_string, mapping_dict):
@@ -24,7 +23,6 @@ def normalize_loinc_code(code_string, mapping_dict):
     parts = code_string.lower().split('/')
     translated_parts = [mapping_dict.get(p.strip(), p.strip()) for p in parts]
     return " ".join(translated_parts)
-
 
 def extract_individual_features(df, query_text):
     """Compute and add the granular feature  (for each column) to DataFrame."""
@@ -52,7 +50,6 @@ def extract_individual_features(df, query_text):
 
     return df_features
 
-
 def get_general_similarity(df_with_features, query_text):
     """Compute a general similarity score for ranking."""
     df_calc = df_with_features.copy()
@@ -74,7 +71,6 @@ def get_general_similarity(df_with_features, query_text):
     doc_vecs = tfidf_matrix[1:]
 
     return cosine_similarity(query_vec, doc_vecs)[0]
-
 
 # --- 3. (MAIN) ---
 
@@ -110,16 +106,10 @@ def main():
         # 4. # Sort and save results
         ranked_df = df_with_features.sort_values(by='ranking_score_baseline', ascending=False)
 
-
-
         safe_filename = query_text.lower().replace(" ", "_") + ".csv"
         output_path = os.path.join(OUTPUT_DIR, safe_filename)
 
         ranked_df.to_csv(output_path, index=False)
-
-
-
-
 
 if __name__ == "__main__":
     main()

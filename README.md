@@ -46,12 +46,15 @@ project-folder/
 │   ├── loinc_dataset-v2.xlsx   # Multi-sheet Excel file with documents for each query.
 │   └── queries.xlsx            # Simple Excel file listing the queries.
 │
-├── scripts/
+├── Pre_Poecessing/
 │   ├── generate_create_feature_and_ranking.py
 │   ├── simula_clicks.py
 │   ├── crea_coppie_preferenza.py
 │   └── trasforma_per_svm.py
 │
+├── train.py
+├── ranker.py
+├── requirements.txt
 └── README.md
 ~~~
 
@@ -129,7 +132,7 @@ This script implements the core logic from Joachims' paper by converting click d
 
 1.  Reads every file from the `data/click_logs/` directory.
 2.  For each query, it identifies all clicked documents.
-3.  [cite_start]Based on the rule **"if a user skips document `j` to click a lower-ranked document `i`, then `i` is preferred over `j`"** [cite: 363-365], it generates preference pairs.
+3.  Based on the rule **"if a user skips document `j` to click a lower-ranked document `i`, then `i` is preferred over `j`"** , it generates preference pairs.
 4.  Consolidates all pairs from all queries into a single, human-readable CSV file.
 
 **How to run it**:
@@ -155,7 +158,7 @@ This is the final transformation step. It converts the conceptual preference pai
 
 1.  Reads the `conceptual_preference_pairs.csv` file.
 2.  For each preference pair (`doc_i > doc_j`), it retrieves the corresponding numerical feature vectors for both documents from the `data/feature_rankings/` files.
-3.  It then calculates the **difference vector** (`feature_vector_i - feature_vector_j`). [cite_start]This transformation turns the ranking problem into a binary classification problem, which is the key insight of the Ranking SVM method [cite: 466-468].
+3.  It then calculates the **difference vector** (`feature_vector_i - feature_vector_j`). This transformation turns the ranking problem into a binary classification problem, which is the key insight of the Ranking SVM method .
 4.  Saves these difference vectors into a final, consolidated training dataset. For each positive pair, an inverse negative pair is also added to create a balanced training set.
 
 **How to run it**:
