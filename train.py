@@ -93,6 +93,16 @@ def main():
 
     X_test, y_test = create_difference_vectors(pairs_test, df_all_features, feature_columns, scaler)
 
+    
+
+    # Saving the training dataset
+    svm_training_dataset = X_train.copy()
+    svm_training_dataset['label'] = y_train
+
+    output_path = "data/svm_training_dataset.csv"
+    svm_training_dataset.to_csv(output_path, index=False)
+
+    
     # 6. Run GridSearchCV
     param_grid = {'C': [0.1, 1, 10, 100]}
     svm = SVC(kernel='linear')
